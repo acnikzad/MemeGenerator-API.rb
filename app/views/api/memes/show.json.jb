@@ -1,0 +1,5 @@
+{
+  top: @meme.top,
+  bottom: @meme.bottom,
+  image: @meme.image
+}
