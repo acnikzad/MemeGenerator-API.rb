@@ -1,3 +1,7 @@
 @memes.map do |meme|
-  render partial: "meme.json.jb", locals: {meme: meme}
+  { id: meme.id,
+    top: meme.top,
+    bottom: meme.bottom,
+    image: meme.image
+  }
 end
